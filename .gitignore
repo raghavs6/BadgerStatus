@@ -31,5 +31,4 @@ frontend/node_modules/
 *.swo
 .DS_Store
 
-
-docs/
+/docs

@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "next": "^15.5.14",
@@ -14,7 +14,10 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.0.0",
     "@tailwindcss/postcss": "^4.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.5.14",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
