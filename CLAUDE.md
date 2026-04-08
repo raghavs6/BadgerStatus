@@ -27,3 +27,8 @@ badger-status/
     ├── src/components/      # Reusable UI components
     ├── package.json
     └── Dockerfile
+
+- Make SMALL, incremental changes. Do not rewrite architecture without  
+  updating PROJECT.md.                   
+  - Always add or update tests for new behavior. 
+  - if a test fails fix them.

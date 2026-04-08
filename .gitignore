@@ -30,3 +30,6 @@ frontend/node_modules/
 *.swp
 *.swo
 .DS_Store
+
+
+docs/
